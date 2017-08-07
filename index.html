@@ -586,6 +586,7 @@
           }
         });
 
+
         // Create a sector picker, passing some options
         var sectorPicker = new google.visualization.ControlWrapper({
           'controlType': 'CategoryFilter',
@@ -596,7 +597,15 @@
         });
 
 
-        // Create a bar chart, passing some options
+      <text class="PageTitle" x="50" y="50">Apprenticeship Starts Dashboard </text>        // Create a bar chart, passing some options
+      <text class="PageTitle" x="250" y="350">Department for Education </text>        
+
+
+
+601
+      
+
+      
         var barChart = new google.visualization.ChartWrapper({
           'chartType': 'Bar',
           'containerId': 'chart_div',
@@ -657,5 +666,13 @@ dashboard.bind([startsRangeSlider, sectorPicker], barChart);
       <div id="range_filter_div"></div>
       <div id="toolbar_div"></div> 
     </div>
+    
+    
+    
+    
+    
+    
+    
+    
   </body>
 </html>
